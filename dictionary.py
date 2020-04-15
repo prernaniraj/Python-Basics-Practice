@@ -1,0 +1,18 @@
+dict1 = {a : b for a , b in enumerate('abcde')}
+print(dict1)
+print(dict1.items())
+print(dict1.keys())
+print(type(dict1.keys()))
+print(dict1.values())
+for i in dict1.values():
+    print(i)
+dict1.setdefault('1')
+dict1.setdefault('1')
+print(dict1.get('a'))
+print(dict1)
+print(dict1.setdefault('e','0'))
+print(dict1)
+print(dict1.pop(3))
+print(dict1)
+dict1.clear()
+print(dict1)
